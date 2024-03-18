@@ -14,7 +14,7 @@ pipeline {
         module_name = "${module_name}"
         container_port = "9028"
         host_port = "9028"
-        //cpu_limit = "512"
+        
 
 
     }
