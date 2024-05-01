@@ -1,4 +1,4 @@
-FROM python:3.8.5-slim as build
+FROM python:3.8.5-slim 
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y python3-dev build-essential gcc 
