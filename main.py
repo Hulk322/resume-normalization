@@ -205,5 +205,5 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app",
         port=9028,
-        host="0.0.0.0",
+        host="0.0.0.0""TZ-ALB-637020186.ap-south-1.elb.amazonaws.com",
     )
